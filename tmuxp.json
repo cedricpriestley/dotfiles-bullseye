@@ -1,0 +1,33 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": [
+            "cd ~/",
+            "nvim"
+          ]
+        }
+      ],
+      "window_name": "edit"
+    },
+    {
+      "panes": [
+        {
+          "shell_command": [
+            "cd ~/drupal9-headless/docroot/",
+            "php -S localhost:8888 .ht.router.php"
+          ]
+        },
+        {
+          "shell_command": [
+            "cd ~/adminer-theme/lib",
+            "php -S localhost:3002"
+          ]
+        }
+      ],
+      "window_name": "admin"
+    }
+  ],
+  "session_name": "home"
+}

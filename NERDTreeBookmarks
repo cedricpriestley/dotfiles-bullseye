@@ -1,0 +1,15 @@
+_adm/php.ini ~/dotfiles/php.ini
+_dt ~/dotfiles
+_dt/bashrc ~/dotfiles/bashrc
+_dt/init.vim ~/dotfiles/nvim/init.vim
+_dt/install.sh ~/dotfiles/scripts/install.sh
+_dt/termux.properties ~/dotfiles/termux/termux.properties
+_dt/tmux.conf ~/dotfiles/tmux.conf
+_home ~/
+d9h ~/drupal9-headless
+d9h/docroot ~/drupal9-headless/docroot
+d9h/mbz_migrate ~/drupal9-headless/docroot/modules/custom/mbz_migrate
+
+_adm /data/data/com.termux/files/usr
+_adm/xdebug.log /data/data/com.termux/files/usr/var/log/xdebug.log
+_adm/httpd.conf ~/usr/etc/apache2/httpd.conf

@@ -1,0 +1,4 @@
+w
+bd
+q
+bufdo bd

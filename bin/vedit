@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# tmux respawn-pane -t dotfiles:1.1 -k
+
+session_name="$(basename "$PWD" | tr . -)"
+
+# rm -f $PREFIX/tmp/nvimsocket-${session_name}
+rm -f /tmp/nvimsocket
+
+NVIM_LISTEN_ADDRESS=${NVIM_LISTEN_ADDRESS} nvim -S

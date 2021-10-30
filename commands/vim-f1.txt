@@ -1,0 +1,7 @@
+~/dotfiles/
+~/dotfiles/bin/
+~/drupal9-headless/
+~/drupal9-headless/docroot/
+~/drupal9-headless/docroot/sites/
+~/drupal9-headless/docroot/modules/custom/mbz_migrate/
+~/drupal9-headless/docroot/modules/custom/mbz_migrate/src/Form/

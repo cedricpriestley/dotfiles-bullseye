@@ -1,0 +1,4 @@
+cd ~/
+exit
+ls -alF
+clear

@@ -1,0 +1,111 @@
+# Handling terminal sessions
+# shortcut.create-session = ctrl + t
+
+# # Go one session down with (for example) ctrl + 2
+# shortcut.next-session = ctrl + 2
+
+# # Go one session up with (for example) ctrl + 1
+# shortcut.previous-session = ctrl + 1
+
+# # Rename a session with (for example) ctrl + n
+# shortcut.rename-session = ctrl + n
+
+# # Handling the character bell
+# # Vibrate device (default).,
+# bell-character=vibrate
+
+# # Beep with a sound.
+# bell-character=beep
+
+# # Ignore bell character.
+bell-character=ignore
+
+# # Handling the back key
+# # Send the Escape key.
+# back-key=escape
+
+# # Hide keyboard or leave app (default).
+back-key=back
+
+use-black-ui = true
+
+# Handling the extra key
+extra-keys = [ \
+             [ \
+{macro: "ESC", display: "ESC", popup: {macro: "CTRL c", display: "C-c"}}, \
+{macro: "F1", display: "¹/⁷", popup: {macro: "ALT F1", display: "ALT F¹"}}, \
+{macro: "F2", display: "²/⁸", popup: {macro: "ALT F2", display: "ALT F²"}}, \
+{macro: "F3", display: "³/⁹", popup: {macro: "ALT F3", display: "ALT F³"}}, \
+{macro: "F4", display: "⁴/¹⁰", popup: {macro: "ALT F4", display: "ALT F⁴"}}, \
+{macro: "F5", display: "⁵/¹¹", popup: {macro: "ALT F5", display: "ALT F⁵"}}, \
+{macro: "F6", display: "⁶/¹²", popup: {macro: "ALT F6", display: "ALT F⁶"}}, \
+{key: INS, popup: {key: INS}}, \
+{key: DEL, popup: {key: DEL}}, \
+{macro: "{", display: "{ [", popup: {macro: "[", display: "["}}, \
+{macro: "}", display: "} ]", popup: {macro: "]", display: "]"}}, \
+{macro: "~", display: "~ `", popup: {macro: "`", display: "`"}}, \
+{macro: "/", display: "/ ?", popup: {macro: "?", display: "?"}} \
+             ], \
+             [ \
+{key: TAB}, \
+{macro: "1", display: "1 !", popup: {macro: "!", display: "!"}}, \
+{macro: "2", display: "2 @", popup: {macro: "@", display: "@"}}, \
+{macro: "3", display: "3 #", popup: {macro: "#", display: "#"}}, \
+{macro: "4", display: "4 $", popup: {macro: "$", display: "$"}}, \
+{macro: "5", display: "5 %", popup: {macro: "%", display: "%"}}, \
+{macro: "6", display: "6 ^", popup: {macro: "^", display: "^"}}, \
+{macro: "7", display: "7 &", popup: {macro: "&", display: "&"}}, \
+{macro: "8", display: "8 *", popup: {macro: "*", display: "*"}}, \
+{macro: "9", display: "9 (", popup: {macro: "(", display: "("}}, \
+{macro: "0", display: "0 )", popup: {macro: ")", display: ")"}}, \
+{macro: "=", display: "= +", popup: {macro: "+", display: "+"}}, \
+{key: BACKSPACE, popup: {macro: SPACE, display: SPACE}} \
+             ], \
+             [ \
+{macro: "q", display: "q", popup: {macro: "Q", display: "Q"}}, \
+{macro: "w", display: "w", popup: {macro: "W", display: "W"}}, \
+{macro: "e", display: "e", popup: {macro: "E", display: "E"}}, \
+{macro: "r", display: "r", popup: {macro: "R", display: "R"}}, \
+{macro: "t", display: "t", popup: {macro: "T", display: "T"}}, \
+{macro: "y", display: "y", popup: {macro: "Y", display: "Y"}}, \
+{key: UP, popup: {key: PAGEUP}}, \
+{macro: "i", display: "i", popup: {macro: "I", display: "I"}}, \
+{macro: "u", display: "u", popup: {macro: "U", display: "U"}}, \
+{macro: "o", display: "o", popup: {macro: "O", display: "O"}}, \
+{macro: "p", display: "p", popup: {macro: "P", display: "P"}}, \
+{macro: "_", display: "_ -", popup: {macro: "-", display: "-"}}, \
+{macro: "|", display: "| \\\\", popup: {macro: "\\\\", display: "\\\\"}} \
+             ], \
+             [ \
+{macro: "'", display: "' \\"", popup: {macro: "\\"", display: "'\\""}}, \
+{macro: "a", display: "a", popup: {macro: "A", display: "A"}}, \
+{macro: "s", display: "s", popup: {macro: "S", display: "S"}}, \
+{macro: "d", display: "d", popup: {macro: "D", display: "D"}}, \
+{macro: "f", display: "f", popup: {macro: "F", display: "F"}}, \
+{key: LEFT, popup: {key: HOME}}, \
+{macro: "g", display: "g", popup: {macro: "G", display: "G"}}, \
+{key: RIGHT, popup: {key: END}}, \
+{macro: "h", display: "h", popup: {macro: "H", display: "H"}}, \
+{macro: "j", display: "j", popup: {macro: "J", display: "J"}}, \
+{macro: "k", display: "k", popup: {macro: "K", display: "K"}}, \
+{macro: "l", display: "l", popup: {macro: "L", display: "L"}}, \
+{macro: ";", display: "; :", popup: {macro: ":", display: ":"}} \
+             ], \
+             [ \
+{macro: "CTRL", display: "CTL", popup: {macro: "CTRL a", display: "C-a"}}, \
+{macro: "ALT", display: "ALT", popup: {macro: "p", display: "p"}}, \
+{macro: "zisplay: "z", popup: {macro: "Z", display: "Z"}}, \
+{macro: "x", display: "x", popup: {macro: "X", display: "X"}}, \
+{macro: "c", display: "c", popup: {macro: "C", display: "C"}}, \
+{macro: "v", display: "v", popup: {macro: "V", display: "V"}}, \
+{macro: DOWN, popup: {key: PAGEDOWN}}, \
+{macro: "b", displby: "b", popup: {macro: "B", display: "B"}}, \
+{macro: "n", display: "n", popup: {macro: "N", display: "N"}}, \
+{macro: "m", display: "m", popup: {macro: "M", display: "M"}}, \
+{macro: ".", display: ". ,", popup: {macro: ",", display: ","}}, \
+{macro: ",", display: ", <", popup: {macro: "<", display: "<"}}, \
+{macro: ".", display: ". >", popup: {macro: ">", display: ">"}}, \
+{key: ENTER, popup: {key: KEYBOARD}} \
+             ] \
+             ]
+{macro: ".", display: ". ,", popup: {macro: ",", display: ","}}, \

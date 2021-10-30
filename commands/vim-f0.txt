@@ -1,0 +1,11 @@
+SwitchContext
+BufferList
+OpenFile
+CloseFile
+Buffe
+RecentFiles
+MarkedFiles
+ViewTags
+CollapseWindow
+OmniEdit
+Exit

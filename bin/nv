@@ -1,0 +1,13 @@
+#!/bin/sh
+# if [ ! -z "$TMUX" ]; then
+# session_name="$(basename "$PWD" | tr . -)"
+# session_name="$(tmux display-message -p '#I')"
+tmux select-window -t 1
+tmux select-pane -t :.1
+# swapTouchKeys.sh 1
+# tmux resize-pane -Z
+nvr --remote --servername $NVIM_LISTEN_ADDRESS $@
+# fi
+
+# nvim $@
+# bat $@

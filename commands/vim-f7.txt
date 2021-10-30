@@ -1,0 +1,4 @@
+gcc
+oxdebug_break();
+!drush cr
+exec '!'.getline('.')

@@ -1,0 +1,27 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": [
+            "cd ~/dotfiles/",
+            "vedit"
+          ]
+        },
+        {
+          "shell_command": [
+            "cd ~/dotfiles/",
+            "nnn -d"
+          ]
+        },
+        {
+          "shell_command": [
+            "cd ~/dotfiles/"
+          ]
+        }
+      ],
+      "window_name": "dtfiles"
+    }
+  ],
+  "session_name": "home"
+}

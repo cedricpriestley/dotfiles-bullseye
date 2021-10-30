@@ -1,0 +1,3 @@
+NERDTreeToggle
+NERDTreeFind
+TagbarOpenAutoClose

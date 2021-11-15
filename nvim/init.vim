@@ -534,6 +534,7 @@ inoremap <A->> <esc>10<c-w>>
 nnoremap <TAB> :BufferList<CR>
 nnoremap <leader>af1 :OpenTerminal<cr>
 nnoremap <leader>f2 :NERDTreeToggle<cr>
+nnoremap <c-p> :NERDTreeToggle<cr>
 inoremap <leader>f2 <esc>:NERDTreeToggle<cr>
 noremap <leader>af2 :NERDTreeFind<cr>
 inoremap <leader>af2 <esc>:NERDTreeFind<cr>
@@ -545,6 +546,7 @@ nnoremap <leader>f4 :RecentFiles<cr>
 inoremap <leader>f4 <esc>:RecentFiles<cr>
 nnoremap <leader>af4 :CloseFile<cr>
 inoremap <leader>af4 <esc>:CloseFile<cr>
+nnoremap <c-s> :SaveFile<cr>
 nnoremap <leader>f5 :SaveFile<cr>
 inoremap <leader>f5 <esc>:SaveFile<cr>
 nnoremap <leader>af5 :SaveFile<cr>
@@ -553,7 +555,9 @@ nnoremap <leader>f6 :ViewTags<cr>
 inoremap <leader>f6 <esc>:ViewTags<cr>
 " inoremap <leader>af6 <esc>:ViewTags<cr>
 " nnoremap <leader>af6 :ViewTags<cr>
+nnoremap <c-z> <nop>
 nmap <leader>f7 gcc
+nmap <c-/> gcc
 imap <leader>f7 <esc>gcc
 nnoremap <leader>f10 :MiscCommands<cr>
 inoremap <leader>f10 <esc>:MiscCommands<cr>

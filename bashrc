@@ -131,6 +131,7 @@ export NODE_ENV='development'
 export PATH=${PATH}:~/.fzf_browser:$HOME/.local/bin:$HOME/dotfiles/bin:$PREFIX/share/tra.sh
 export PATH=$PATH:$HOME/.config/composer/vendor/bin
 export PATH=$PATH:$PREFIX/usr/bin
+export PATH="$HOME/.symfony/bin:$PATH"
 # export XDEBUG_CONFIG="idekey=xdebug remote_host=localhost remote_enable=1"
 # export EDITOR='nvr --servername ${NVIM_LISTEN_ADDRESS} --remote-wait'
 # export EDITOR='nvr --servername ${NVIM_LISTEN_ADDRESS} --remote-waitv'
@@ -179,7 +180,7 @@ _isRunning() {
   ps -o comm= -C "$1" 2>/dev/null | grep -x "$1" >/dev/null 2>&1
 }
 
-function tree {
+function btree {
   br -c :pt "$@"
 }
 

@@ -15,8 +15,8 @@ session_exists() {
 
 create_detached_session() {
   (TMUX='' tmux new-session -Ad -s "$session_name")
-  tmux rename-window "edit"
-  tmux send-keys -t 1 "vedit" C-m
+  tmux send-keys -t 1 "rename-window 'edit' C-m"
+  # tmux send-keys -t 1 "vedit" C-m
 }
 
 create_if_needed_and_attach() {

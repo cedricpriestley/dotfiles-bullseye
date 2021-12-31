@@ -1,0 +1,15 @@
+{
+  "intelephense.licenceKey": "001WSL1X48K9AFM",
+  "phpls.path":"/usr/lib/node_modules/intelephense",
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php", "module", "inc", "install", "test", "profile", "view"],
+      "trace.server": "verbose",
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
+    }
+  }
+}
